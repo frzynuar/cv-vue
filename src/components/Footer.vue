@@ -1,29 +1,17 @@
 <template>
-    <div class="container-fluid p-0 tes">
-  <section class="" id="">
-        <div class="edit">
-          <h1 class="mb-0">
-            Faraz Yanuar
-            <span class="text-primary">Fajrian</span>
-          </h1>
-          <div class=" mb-5">
-            <h4>Sukamaju Baru, Tapos, Depok · (+62) 812-1351-7814 ·</h4>
-            <p class="fs-4"><a href="mailto:farazyanuar1@gmail.com">farazyanuar1@gmail.com</a></p>
+  <div class="container-fluid p-0 tes">
+      <!-- About-->
+      <section class="resume-section" id="about"></section>
+        <div class="social-icons">
+            <img src="@/assets/linkedin.svg" class="social-icon" alt="">
+            <img src="@/assets/github.svg" class="social-icon" alt="">
           </div>
-          <p class="lead mb-5">I'm Faraz Yanuar Fajrian, a student of Taruna Bhakti Vocational High School
-            17 years old majoring in Engineering
-            Software, Experienced in developing
-            website using HTML, CSS, Bootstrap,
-            basic javascript. Besides that I also have
-            experience using Laravel, and MYSQL</p>
-    </div>
-    </section>
-    </div>
+        </div>
 </template>
 
 <script>
 export default {
-    name: 'Menu',
+    name: 'Footer',
 }
 </script>
 
@@ -40,14 +28,8 @@ export default {
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
- .edit {
-    padding-top: 80px;
-    padding-left: 48px;
-    padding-right: 48px;
-    margin-bottom: -180px;
-    height: 1px;
-    width: 967px;
+ .social-icons {
+    margin-left: 50px;
  }
 
   :root {
@@ -12411,7 +12393,7 @@ export default {
     font-size: 3rem;
   }
 
-  /* section.resume-section {
+  section.resume-section {
     display: flex;
     align-items: center;
     padding-left: 1rem;
@@ -12419,13 +12401,13 @@ export default {
     padding-top: 5rem;
     padding-bottom: 5rem;
     max-width: 75rem;
-  } */
+  }
 
-  /* section.resume-section .resume-section-content {
+  section.resume-section .resume-section-content {
     width: 100%;
-  } */
+  }
 
-  /* @media (min-width: 768px) {
+  @media (min-width: 768px) {
     section.resume-section {
       min-height: 100vh;
     }
@@ -12438,5 +12420,5 @@ export default {
       padding-top: 5rem;
       padding-bottom: 5rem;
     }
-  } */
+  }
 </style>

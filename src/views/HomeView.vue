@@ -1,9 +1,11 @@
 <script setup>
-import Menu from '@/components/Menu.vue'
+import Personal from '@/components/Personal.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
   <main>
-    <Menu />
+    <Personal />
+    <Footer />
   </main>
 </template>

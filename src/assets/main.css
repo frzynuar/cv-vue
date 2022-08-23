@@ -24,12 +24,12 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    /* place-items: center; */
   }
 
   #app {
     display: grid;
-    grid-template-columns: 0.25fr 1.75fr;
-    padding: 0 2rem;
+    grid-template-columns: 0px 950px;
+    padding: 0rem 2rem;
   }
 }
