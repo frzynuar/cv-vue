@@ -2,11 +2,11 @@
     <div class="container-fluid p-0 tes">
   <section class="" id="">
         <div class="edit">
-          <h1 class="mb-0">
-            Faraz Yanuar
-            <span class="text-primary">Fajrian</span>
+          <h1 class="mb-0 nama">
+            Faraz Yanuar Fajrian
           </h1>
-          <div class=" mb-5">
+          <h2 class="fs-3 mb-4"><span class="text-primary">Full Stack Developer</span></h2>
+          <div class=" mb-4">
             <h4>Sukamaju Baru, Tapos, Depok · (+62) 812-1351-7814 ·</h4>
             <p class="fs-4"><a href="mailto:farazyanuar1@gmail.com">farazyanuar1@gmail.com</a></p>
           </div>
@@ -40,6 +40,10 @@ export default {
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .nama {
+    font-size: 70px;
+ }
 
  .edit {
     padding-top: 80px;
